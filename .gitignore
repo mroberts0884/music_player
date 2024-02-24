@@ -1,1 +1,5 @@
-kivy_venv/
+# created by virtualenv automatically
+#ignore all venv
+*venv/
+#ignore all .vscode
+*.vscode/
