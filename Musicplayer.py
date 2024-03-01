@@ -13,7 +13,7 @@ from kivy.graphics import Rectangle, Color
 
 
 Window.size = (400,600)
-Window.clearcolor = 255,0,0
+Window.clearcolor = 0,0,204
 
 
 class MyBoxLayout(Widget):
@@ -32,6 +32,7 @@ class MyBoxLayout(Widget):
     
 class Musicplayer(App):
     def build(self):
+        self.title = "ISongs"
         return MyBoxLayout()
     
 if __name__ == '__main__':
